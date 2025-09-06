@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "after:bump": "pnpm run build-and-zip && pnpm run build-and-zip:firefox"
+  },
+  "git": {
+    "commitMessage": "Release v${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}",
+    "assets": ["chrome-monarch-amazon-sync.zip", "firefox-monarch-amazon-sync.zip"],
+    "autoGenerate": true
+  },
+  "npm": {
+    "publish": false
+  }
+}

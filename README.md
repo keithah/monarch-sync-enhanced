@@ -1,3 +1,5 @@
+WARNING!! this does not work today. I am trying to add other integrations, eventually I will circle back. don't use it. I will archive it for now.
+
 <div align="center">
 <img src="public/icon-128.png" alt="logo"/>
 <h1>Enhanced Monarch Sync</h1>
